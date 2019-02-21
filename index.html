@@ -77,6 +77,13 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">Career Opportunities</a>
           </li>
+<!-- NOTES: "Bootstrap doesn’t include an icon library by default, but we 
+            have a handful of recommendations for you to choose from." 
+            https://getbootstrap.com/docs/4.3/extend/icons/#more-options
+
+            Daniel: To get around this I downloaded fontawesome and referenced it's all.js file
+            so I wouldn't be using external links.
+             -->
           <li class="list-inline-item">
             <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="#">
               <i class="fas fa-search"></i>              
@@ -103,6 +110,8 @@
         <div class="breadcrumb bg-light">
           <h1>Services We Offer</h1>
         </div>
+        <div class="divider">
+        </div>
         <ol class="breadcrumb bg-light">
           <li class="breadcrumb-item"><a href="#">
             <svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1">
@@ -128,7 +137,7 @@
         <div class="container">
           <h2 class="text-center text-uppercase text-secondary mb-0">Services</h2>
           <!-- BEGIN Project Cards -->
-              <div id="projects" class="col">
+              <div id="services" class="col">
               </div>
           <!-- END Project Cards --> 
         </div>
@@ -152,7 +161,7 @@
     </div>
 
 
-
+<!-- NOTES:  -->
   <!-- FOOTER -->
   <footer class="footer text-center">
     <div class="container">
@@ -167,25 +176,27 @@
           <h4 class="text-uppercase mb-4">Around the Web</h4>
           <ul class="list-inline mb-0">
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/HCACare/" target="_blank">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="http://127.0.0.1:8080/#" target="_blank">
                 <i class="fab fa-facebook-f"></i>              
               </a>
             </li>          
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/HCAhealthcare" target="_blank">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="http://127.0.0.1:8080/#" target="_blank">
                   <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/company/hca/" target="_blank">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="http://127.0.0.1:8080/#" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>         
           </ul>
         </div>
         <div class="col-md-4">
-          <h4 class="text-uppercase mb-4">Map</h4>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.7046607210323!2d-86.81937632304073!3d36.14940369936349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886466b398b3eda7%3A0xdf7225216e55986!2sHCA+Building+4!5e0!3m2!1sen!2sus!4v1550696517736" width="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <h4 class="text-uppercase mb-4">No external link Map</h4>
+          <img src="img/map.png" width="200px">
+<!-- NOTES: Was a map link and then I remembered the no external links bit. -->
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.7046607210323!2d-86.81937632304073!3d36.14940369936349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886466b398b3eda7%3A0xdf7225216e55986!2sHCA+Building+4!5e0!3m2!1sen!2sus!4v1550696517736" width="200" frameborder="0" style="border:0" allowfullscreen></iframe> -->
         </div>
       </div>
     </div>
@@ -219,3 +230,9 @@
 </body>
 
 </html>
+<!-- NOTES: -This rendition of the project started life as the bootstrap freelancer template.
+            I stripped out off all it's content, and only kept most of the footer and 
+            part of the nav.
+            -This decision was made mostly to save time by starting with 
+            a functioning dependency ecosystem over patching one together. 
+          -->

@@ -1,3 +1,6 @@
+.divider {
+  @include divider(bottom, 10%);
+}
 header.masthead {
   padding-top: calc(1em + 72px);
   // padding-bottom: 1%;

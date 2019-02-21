@@ -126,6 +126,10 @@ section {
     padding-bottom: 0.5rem; }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
+.divider {
+  width: 10%;
+  border-bottom: 3px solid #024b91; }
+
 header.masthead {
   padding-top: calc(1em + 72px); }
   header.masthead h1 {

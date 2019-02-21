@@ -1,17 +1,17 @@
 // "use strict";
 
 // console.log("main.js");
-
+// I used this 
 $.ajax({
-  url: "data/projects.json"
-}).done(projectsLists)
+  url: "data/services.json"
+}).done(servicesLists)
 .fail(function (error) {
   console.log("error", error);
 }); 
-function projectsLists(list) {
+function servicesLists(list) {
   let data = list.project;
   data.forEach(function (item) {
-    document.getElementById("projects").innerHTML += 
+    document.getElementById("services").innerHTML += 
     `<div class="card">
       <div class="row">
         <div class="card-body col-8">
@@ -80,11 +80,6 @@ function createLink(urlString, img, mail) {
   return projectLink
 };
 
-$.ajax({
-  url: "data/techs.json"
-}).done(techs)
-.fail(function (error) {
-  console.log("error", error);
-});
+
 
 

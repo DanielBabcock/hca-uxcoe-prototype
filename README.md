@@ -20,23 +20,30 @@ Feel free to add comments within the code or attach a text document to explain a
 
 ## Build Page Checklist
 Please include the following items in your code:
-+ Latest Bootstrap library
+- Latest Bootstrap library
     - Use of grid
-+ Multiple headings to show use of the HTML header hierarchy
-+ At least one button
+- Multiple headings to show use of the HTML header hierarchy
+- At least one button
 - At least one glyphicon (the icons available in Bootstrap) and add a hover effect
-+ Some content in an aside or sidebar element
-+ An address and phone number (doesn’t have to be real contact information)
+    "Bootstrap doesn’t include an icon library by default, but we 
+        have a handful of recommendations for you to choose from." 
+        https://getbootstrap.com/docs/4.3/extend/icons/#more-options
+
+        Daniel: To get around this I downloaded fontawesome and referenced it's all.js file
+        so I wouldn't be using external links.
+
+- Some content in an aside or sidebar element
+- An address and phone number (doesn’t have to be real contact information)
 - Use the following features of the LESS or SASS languages:
-    + Variable
+    - Variable
     - Mixin
-    + Import
+    - Import
 + Trigger a bootstrap modal using javascript
 + Inject content to DOM Elements using javascript i.e Lorem Ipsum
 
 
 ## Exercise Submission
-Completed projects should be submitted in one of two ways:
+Completed services should be submitted in one of two ways:
 - Online repository (such as GitHub or BitBucket): create a repository under your account named "hca-uxcoe-prototype"
 - Zip files (where files are all connected and can be viewed in browser from an index page); so if libraries are used, include them in the submitted zip file.
 
