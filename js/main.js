@@ -18,12 +18,12 @@ function servicesLists(list) {
           <h5 class="card-title">${item.title}</h5>
           <h6>${item.subTitle}</h6>
           <p class="card-text">${item.aboutShort}</p>
-          <button type="button" class="btn btn-outline-primary title-font bottom" data-toggle="modal" data-target="#projectList${item.id}">
-            Read more!
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#servicesLists${item.id}">
+            Read more
           </button>
           <a href="${item.joinLink}" target="_blank">
-            <button type="button" class="btn btn-outline-primary title-font bottom" data-toggle="modal" data-target="#projectList${item.joinLink}">
-              Join
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#servicesLists${item.joinLink}">
+              Join now
             </button>
           </a>
         </div>
@@ -34,7 +34,7 @@ function servicesLists(list) {
     </div>
 
 
-    <div class="modal fade" id="projectList${item.id}" tabindex="-1" role="dialog" aria-labelledby="projectList${item.id}Label" aria-hidden="true">
+    <div class="modal fade" id="projectList${item.id}" tabindex="-1" role="dialog" aria-labelledby="servicesList${item.id}Label" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
