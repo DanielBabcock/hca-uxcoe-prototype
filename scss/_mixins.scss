@@ -1,3 +1,10 @@
+// NOTES: The divider is my mixin.
+@mixin divider($side, $width){
+  width: $width;
+  border-#{$side}: 3px solid $primary;
+}
+
+
 @mixin body-font() {
   font-family: 'Lato';
 }
@@ -6,3 +13,4 @@
   font-weight: 700;
   font-family: 'Montserrat';
 }
+
