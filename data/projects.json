@@ -2,33 +2,30 @@
     "project": [
         {
             "id": 0,
-            "title": "Photo Tutor",
-            "subTitle": "Photo Tutor",
-            "aboutShort": "A web application intended to be a tool to assist students with...",
-            "aboutFull": "<p>Description: A web application intended to be a tool to assist students with limited camera access and to help educators translate fundamental photography concept to groups. It is a proof of concept for a future version that could be expanded to include being gamified and tutorials. This is an AngularJS app that uses Firebase for authentication, data storage, and hosting. It also uses HTML/CSS, Saas, Bootstrap, and Grunt.</p>",
-            "readMoreLink": "https://photo-tutor.firebaseapp.com/#!/",
+            "title": "Physical Therapy",
+            "subTitle": "Helping you recover.",
+            "aboutShort": "Lorem ipsum dolor sit amet, no mea molestie perfecto electram, at eam nisl disputando vituperatoribus, nec cu facilisis scripserit voluptatibus.",
+            "aboutFull": "<p>Lorem ipsum dolor sit amet, illum nobis everti et sea, per id maluisset repudiare. Cetero mnesarchum vix id, est eu liber quando lobortis. At usu justo option urbanitas, sit libris verear suscipiantur ei, duis perpetua an eam. Placerat vituperatoribus duo in, mea ne suscipit suscipiantur. Eum ei autem dissentias. No quando meliore similique quo. Munere invidunt an sea, ius dico mazim reprimique te. Dicta vocibus partiendo ex nam, mea aperiam electram interpretaris id. At legere disputationi eam, ad sumo mundi suscipit his. Vis lucilius salutandi ne, nullam accommodare qui ad. Te per nullam delicata vulputate. Ei libris labores dissentiunt cum.</p>",
             "joinLink": "https://photo-tutor.firebaseapp.com/#!/",
-            "img": "img/design.png"
+            "img": "img/physTherapy.jpg"
         },
         {
             "id": 1,
-            "title": "Photo Tutor",
-            "subTitle": "Photo Tutor",
-            "aboutShort": "A web application intended to be a tool to assist students with...",
-            "aboutFull": "<p>Description: A web application intended to be a tool to assist students with limited camera access and to help educators translate fundamental photography concept to groups. It is a proof of concept for a future version that could be expanded to include being gamified and tutorials. This is an AngularJS app that uses Firebase for authentication, data storage, and hosting. It also uses HTML/CSS, Saas, Bootstrap, and Grunt.</p>",
-            "readMoreLink": "https://photo-tutor.firebaseapp.com/#!/",
-            "joinLink": "https://photo-tutor.firebaseapp.com/#!/",
-            "img": "img/design.png"
+            "title": "Medical Consulting",
+            "subTitle": "Next steps for your best health",
+            "aboutShort": "Lorem ipsum dolor sit amet, no mea molestie perfecto electram, at eam nisl disputando vituperatoribus, nec cu facilisis scripserit voluptatibus.",
+            "aboutFull": "<p>Lorem ipsum dolor sit amet, illum nobis everti et sea, per id maluisset repudiare. Cetero mnesarchum vix id, est eu liber quando lobortis. At usu justo option urbanitas, sit libris verear suscipiantur ei, duis perpetua an eam. Placerat vituperatoribus duo in, mea ne suscipit suscipiantur. Eum ei autem dissentias. No quando meliore similique quo. Munere invidunt an sea, ius dico mazim reprimique te. Dicta vocibus partiendo ex nam, mea aperiam electram interpretaris id. At legere disputationi eam, ad sumo mundi suscipit his. Vis lucilius salutandi ne, nullam accommodare qui ad. Te per nullam delicata vulputate. Ei libris labores dissentiunt cum.</p>",
+            "joinLink": "https://www.linkedin.com/in/danielbbabcock/",
+            "img": "img/consulting.jpg"
         },
         {
             "id": 2,
-            "title": "Title",
-            "subTitle": "I is a sub-Title",
-            "aboutShort": "A web blah blah loremish ipsumiest...",
-            "aboutFull": "<p>Description: A web application intended to be a tool to assist students with limited camera access and to help educators translate fundamental photography concept to groups. It is a proof of concept for a future version that could be expanded to include being gamified and tutorials. This is an AngularJS app that uses Firebase for authentication, data storage, and hosting. It also uses HTML/CSS, Saas, Bootstrap, and Grunt.</p>",
-            "readMoreLink": "https://photo-tutor.firebaseapp.com/#!/",
-            "joinLink": "https://photo-tutor.firebaseapp.com/#!/",
-            "img": "img/design.png"
+            "title": "Blood Tests",
+            "subTitle": "Hormones, disease, and heavy metals.",
+            "aboutShort": "Lorem ipsum dolor sit amet, no mea molestie perfecto electram, at eam nisl disputando vituperatoribus, nec cu facilisis scripserit voluptatibus.",
+            "aboutFull": "<p>Lorem ipsum dolor sit amet, illum nobis everti et sea, per id maluisset repudiare. Cetero mnesarchum vix id, est eu liber quando lobortis. At usu justo option urbanitas, sit libris verear suscipiantur ei, duis perpetua an eam. Placerat vituperatoribus duo in, mea ne suscipit suscipiantur. Eum ei autem dissentias. No quando meliore similique quo. Munere invidunt an sea, ius dico mazim reprimique te. Dicta vocibus partiendo ex nam, mea aperiam electram interpretaris id. At legere disputationi eam, ad sumo mundi suscipit his. Vis lucilius salutandi ne, nullam accommodare qui ad. Te per nullam delicata vulputate. Ei libris labores dissentiunt cum.</p>",
+            "joinLink": "https://www.danielbabcock.com/",
+            "img": "img/bloodwork.jpg"
         }
     ]
 }

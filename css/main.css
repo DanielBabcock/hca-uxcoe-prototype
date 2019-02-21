@@ -150,6 +150,10 @@ header.masthead {
   height: auto;
   padding: 25% 4% 25% 0; }
 
+.modal-body img {
+  width: 100%;
+  height: auto; }
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
