@@ -19,7 +19,7 @@
           color: $primary;
         }
         &.active {
-          color: $secondary;
+          color: white;
         }
       }
     }
@@ -46,12 +46,12 @@
       margin-top: 0;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
-      color: $primary;
+      color: white;
       background: $primary;
       &:active,
       &:focus,
       &:hover {
-        color: $primary;
+        color: white;
         background: $primary;
       }
     }

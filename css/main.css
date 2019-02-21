@@ -8,7 +8,14 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat'; }
+  font-family: 'Montserrat';
+  font-family: sans-serif; }
+
+p,
+a,
+div,
+button {
+  font-family: sans-serif; }
 
 hr.star-light,
 hr.star-dark {
@@ -95,7 +102,7 @@ section {
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #024b91; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
-        color: #ed3942; }
+        color: white; }
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
@@ -115,10 +122,10 @@ section {
     #mainNav .navbar-nav {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #024b91;
+      color: white;
       background: #024b91; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        color: #024b91;
+        color: white;
         background: #024b91; }
 
   #mainNav.navbar-shrink {
@@ -158,6 +165,9 @@ header.masthead {
 
 .card {
   margin: 20px 0 20px 0; }
+
+.contentArea {
+  margin-left: 3em; }
 
 .footer {
   padding-top: 5rem;
