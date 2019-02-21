@@ -1,0 +1,34 @@
+{
+    "project": [
+        {
+            "id": 0,
+            "title": "Photo Tutor",
+            "subTitle": "Photo Tutor",
+            "aboutShort": "A web application intended to be a tool to assist students with...",
+            "aboutFull": "<p>Description: A web application intended to be a tool to assist students with limited camera access and to help educators translate fundamental photography concept to groups. It is a proof of concept for a future version that could be expanded to include being gamified and tutorials. This is an AngularJS app that uses Firebase for authentication, data storage, and hosting. It also uses HTML/CSS, Saas, Bootstrap, and Grunt.</p>",
+            "readMoreLink": "https://photo-tutor.firebaseapp.com/#!/",
+            "joinLink": "https://photo-tutor.firebaseapp.com/#!/",
+            "img": "img/design.png"
+        },
+        {
+            "id": 1,
+            "title": "Photo Tutor",
+            "subTitle": "Photo Tutor",
+            "aboutShort": "A web application intended to be a tool to assist students with...",
+            "aboutFull": "<p>Description: A web application intended to be a tool to assist students with limited camera access and to help educators translate fundamental photography concept to groups. It is a proof of concept for a future version that could be expanded to include being gamified and tutorials. This is an AngularJS app that uses Firebase for authentication, data storage, and hosting. It also uses HTML/CSS, Saas, Bootstrap, and Grunt.</p>",
+            "readMoreLink": "https://photo-tutor.firebaseapp.com/#!/",
+            "joinLink": "https://photo-tutor.firebaseapp.com/#!/",
+            "img": "img/design.png"
+        },
+        {
+            "id": 2,
+            "title": "Title",
+            "subTitle": "I is a sub-Title",
+            "aboutShort": "A web blah blah loremish ipsumiest...",
+            "aboutFull": "<p>Description: A web application intended to be a tool to assist students with limited camera access and to help educators translate fundamental photography concept to groups. It is a proof of concept for a future version that could be expanded to include being gamified and tutorials. This is an AngularJS app that uses Firebase for authentication, data storage, and hosting. It also uses HTML/CSS, Saas, Bootstrap, and Grunt.</p>",
+            "readMoreLink": "https://photo-tutor.firebaseapp.com/#!/",
+            "joinLink": "https://photo-tutor.firebaseapp.com/#!/",
+            "img": "img/design.png"
+        }
+    ]
+}
